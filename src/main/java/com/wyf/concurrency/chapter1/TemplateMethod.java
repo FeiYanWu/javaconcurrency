@@ -1,4 +1,4 @@
-package com.wyf.concurrency;
+package com.wyf.concurrency.chapter1;
 
 /**************************************
  * @Author : WYF

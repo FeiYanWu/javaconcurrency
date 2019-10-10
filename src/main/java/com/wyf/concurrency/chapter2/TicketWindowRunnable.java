@@ -6,17 +6,18 @@ package com.wyf.concurrency.chapter2;
  * @Version 1.0
  *************************************/
 public class TicketWindowRunnable implements Runnable {
-    private String name;
-    public TicketWindowRunnable(String name){
-        this.name = name;
-    }
     private static final int  SIZE = 50;
     private static int INDEX =1;
 
     @Override
     public void run(){
         while(INDEX<=SIZE){
-            System.out.println(name+"当前的号码是"+(INDEX++));
+            System.out.println(Thread.currentThread()+"当前的号码是"+(INDEX++));
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }

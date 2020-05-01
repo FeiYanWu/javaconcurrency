@@ -25,11 +25,11 @@ public class SynchronizedProblem {
         t2.interrupt();
         System.out.println(t2.isInterrupted());
     }
-    
+    //synchronized 不可中断
     private synchronized static void work(){
         System.out.println(Thread.currentThread().getName());
         while(true){
-            
+
         }
     }
 }

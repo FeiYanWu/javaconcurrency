@@ -8,12 +8,14 @@ public class ThreadCloseGraceful {
         @Override
         public void run() {
             while (start){
-                
+                System.out.println("Working");
             }
         }
         
         public void shutdown(){
             this.start = false;
+            System.out.println("false-------------");
+
         }
     }
     
@@ -28,5 +30,6 @@ public class ThreadCloseGraceful {
             e.printStackTrace();
         }
         worker.shutdown();
+        System.out.println("done");
     }   
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/classLoader/classLoader.iml" filepath="$PROJECT_DIR$/classLoader/classLoader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/javaconcurrency.iml" filepath="$PROJECT_DIR$/.idea/javaconcurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_servant/my_servant.iml" filepath="$PROJECT_DIR$/my_servant/my_servant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_service/my_service.iml" filepath="$PROJECT_DIR$/my_service/my_service.iml" />
+    </modules>
+  </component>
+</project>

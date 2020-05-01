@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="classLoader" />
+        <module name="my_service" />
+        <module name="my_servant" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="classLoader" target="1.5" />
+      <module name="javaconcurrency" target="1.8" />
+      <module name="my_servant" target="1.8" />
+      <module name="my_service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
